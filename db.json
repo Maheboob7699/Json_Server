@@ -1,7 +1,7 @@
 {
-    "apiEndpoint" : [
+    "Users" : [
       {
-        "name" : "UMA",
+        "name" : "Mehboob",
         "skills" : ["javaScript", "node.js", "react.js"]
       },
       {

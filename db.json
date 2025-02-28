@@ -1,13 +1,15 @@
-[
-    {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com"
-    }
-  ]
+{
+    "Users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      }
+    ]
+  }
   

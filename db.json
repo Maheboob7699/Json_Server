@@ -1,13 +1,4 @@
 {
-    "Users" : [
-      {
-        "name" : "Mehboob",
-        "skills" : ["javaScript", "node.js", "react.js"]
-      },
-      {
-        "name":"RADHA",
-        "skills" : ["Adobe Illustrator", "Adobe After effects"]
-      }
-    ],
+    "Users" : [],
     "userViewDetails": []
   }

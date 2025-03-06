@@ -1,127 +1,206 @@
 {
   "Users": [],
   "questions": [
-    {
-      "id": 1,
-      "ques": "What is HTML?",
-      "options": [
-        "A programming language",
-        "A markup language for structuring content",
-        "A database management system",
-        "A CSS framework"
-      ],
-      "answer": "A markup language for structuring content"
-    },
-    {
-      "id": 2,
-      "ques": "What does CSS stand for?",
-      "options": [
-        "Cascading Style Sheets",
-        "Cascading Script Sheets",
-        "Custom Style Sheets",
-        "Creative Styling Sheets"
-      ],
-      "answer": "Cascading Style Sheets"
-    },
-    {
-      "id": 3,
-      "ques": "What is JavaScript primarily used for?",
-      "options": [
-        "Creating static web pages",
-        "Styling web pages",
-        "Adding interactivity to web pages",
-        "Designing web pages"
-      ],
-      "answer": "Adding interactivity to web pages"
-    },
-    {
-      "id": 4,
-      "ques": "Which of the following is used to define a class in CSS?",
-      "options": [
-        ".className",
-        "#className",
-        "$className",
-        "&className"
-      ],
-      "answer": ".className"
-    },
-    {
-      "id": 5,
-      "ques": "What is the purpose of the 'alt' attribute in an <img> tag?",
-      "options": [
-        "To define the width of the image",
-        "To add a caption to the image",
-        "To provide alternative text for the image",
-        "To add a border around the image"
-      ],
-      "answer": "To provide alternative text for the image"
-    },
-    {
-      "id": 6,
-      "ques": "In React, what does 'state' represent?",
-      "options": [
-        "Data passed from parent to child components",
-        "Local data storage within a component",
-        "A way to style components",
-        "A method to define props"
-      ],
-      "answer": "Local data storage within a component"
-    },
-    {
-      "id": 7,
-      "ques": "Which of these is used to declare a variable that cannot be reassigned in JavaScript?",
-      "options": [
-        "var",
-        "let",
-        "const",
-        "immutable"
-      ],
-      "answer": "const"
-    },
-    {
-      "id": 8,
-      "ques": "What is JSX in React?",
-      "options": [
-        "A JavaScript extension for defining styles",
-        "A syntax extension for writing HTML in JavaScript",
-        "A library for state management",
-        "A new type of JavaScript function"
-      ],
-      "answer": "A syntax extension for writing HTML in JavaScript"
-    },
-    {
-      "id": 9,
-      "ques": "Which CSS property is used to change the text color?",
-      "options": [
-        "color",
-        "background-color",
-        "font-color",
-        "text-color"
-      ],
-      "answer": "color"
-    },
-    {
-      "id": 10,
-      "ques": "What does the '===' operator do in JavaScript?",
-      "options": [
-        "Compares values and performs type conversion",
-        "Compares both value and type without type conversion",
-        "Compares two strings only",
-        "Assigns a value to a variable"
-      ],
-      "answer": "Compares both value and type without type conversion"
-    },
-    {
-      "id": 11,
-      "ques": "Which tag is used to create a hyperlink in HTML?",
-      "options": [
-        "<link>",
-        "<a>",
-        "<href>",
-        "<hlink>"
-      ],
-      "answer": "<a>"
-    }
+      {
+          "ques": "What is HTML?",
+          "options": [
+              "A programming language",
+              "A markup language for structuring content",
+              "A database management system",
+              "A CSS framework"
+          ],
+          "answer": "A markup language for structuring content"
+      },
+      {
+          "ques": "What does CSS stand for?",
+          "options": [
+              "Cascading Style Sheets",
+              "Cascading Script Sheets",
+              "Custom Style Sheets",
+              "Creative Styling Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+      },
+      {
+          "ques": "What is JavaScript primarily used for?",
+          "options": [
+              "Creating static web pages",
+              "Styling web pages",
+              "Adding interactivity to web pages",
+              "Designing web pages"
+          ],
+          "answer": "Adding interactivity to web pages"
+      },
+      {
+          "ques": "Which of the following is used to define a class in CSS?",
+          "options": [
+              ".className",
+              "#className",
+              "$className",
+              "&className"
+          ],
+          "answer": ".className"
+      },
+      {
+          "ques": "What is the purpose of the 'alt' attribute in an <img> tag?",
+          "options": [
+              "To define the width of the image",
+              "To add a caption to the image",
+              "To provide alternative text for the image",
+              "To add a border around the image"
+          ],
+          "answer": "To provide alternative text for the image"
+      },
+      {
+          "ques": "In React, what does 'state' represent?",
+          "options": [
+              "Data passed from parent to child components",
+              "Local data storage within a component",
+              "A way to style components",
+              "A method to define props"
+          ],
+          "answer": "Local data storage within a component"
+      },
+      {
+          "ques": "Which of these is used to declare a variable that cannot be reassigned in JavaScript?",
+          "options": [
+              "var",
+              "let",
+              "const",
+              "immutable"
+          ],
+          "answer": "const"
+      },
+      {
+          "ques": "What is JSX in React?",
+          "options": [
+              "A JavaScript extension for defining styles",
+              "A syntax extension for writing HTML in JavaScript",
+              "A library for state management",
+              "A new type of JavaScript function"
+          ],
+          "answer": "A syntax extension for writing HTML in JavaScript"
+      },
+      {
+          "ques": "Which CSS property is used to change the text color?",
+          "options": [
+              "color",
+              "background-color",
+              "font-color",
+              "text-color"
+          ],
+          "answer": "color"
+      },
+      {
+          "ques": "What does the '===' operator do in JavaScript?",
+          "options": [
+              "Compares values and performs type conversion",
+              "Compares both value and type without type conversion",
+              "Compares two strings only",
+              "Assigns a value to a variable"
+          ],
+          "answer": "Compares both value and type without type conversion"
+      },
+      {
+          "ques": "Which tag is used to create a hyperlink in HTML?",
+          "options": [
+              "<link>",
+              "<a>",
+              "<href>",
+              "<hlink>"
+          ],
+          "answer": "<a>"
+      },
+      {
+          "ques": "Which of the following is NOT a JavaScript data type?",
+          "options": [
+              "String",
+              "Boolean",
+              "Float",
+              "Undefined"
+          ],
+          "answer": "Float"
+      },
+      {
+          "ques": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+              "//",
+              "/*",
+              "#",
+              "--"
+          ],
+          "answer": "//"
+      },
+      {
+          "ques": "Which function is used to print something in the console in JavaScript?",
+          "options": [
+              "print()",
+              "console.log()",
+              "log.print()",
+              "display()"
+          ],
+          "answer": "console.log()"
+      },
+      {
+          "ques": "Which property is used to make text bold in CSS?",
+          "options": [
+              "font-weight",
+              "text-bold",
+              "bold",
+              "text-style"
+          ],
+          "answer": "font-weight"
+      },
+      {
+          "ques": "What does the 'DOM' stand for in JavaScript?",
+          "options": [
+              "Document Object Model",
+              "Data Object Model",
+              "Document Order Model",
+              "Design Object Model"
+          ],
+          "answer": "Document Object Model"
+      },
+      {
+          "ques": "Which keyword is used to define an asynchronous function in JavaScript?",
+          "options": [
+              "sync",
+              "await",
+              "async",
+              "promise"
+          ],
+          "answer": "async"
+      },
+      {
+          "ques": "Which of the following is NOT a valid CSS unit?",
+          "options": [
+              "px",
+              "em",
+              "rem",
+              "ptx"
+          ],
+          "answer": "ptx"
+      },
+      {
+          "ques": "How do you define a function in JavaScript?",
+          "options": [
+              "def function() {}",
+              "function myFunction() {}",
+              "func myFunction() {}",
+              "define myFunction() {}"
+          ],
+          "answer": "function myFunction() {}"
+      },
+      {
+          "ques": "Which method is used to remove the last element from an array in JavaScript?",
+          "options": [
+              "pop()",
+              "push()",
+              "shift()",
+              "removeLast()"
+          ],
+          "answer": "pop()"
+      }
   ],
   "userDetails": []
 }
